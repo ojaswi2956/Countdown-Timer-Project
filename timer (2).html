@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title>COUNTDOWN TIMER</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/5929/5929454.png">
+<link rel="stylesheet" type="text/css" href="countdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style>
+
+    .swiper {
+      width: 30%;
+      height: 15%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#fff;
+    }
+
+    .swiper-slide img {
+      display:inline- block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+</style>
+</head>
+<body>
+<div class="header">
+<nav>
+<div class="logo">
+<img src="https://cdn-icons-png.flaticon.com/128/5929/5929454.png" width="70px" height="70px" >
+</div>
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="owntimer.html">CREATE YOUR OWN TIMER</a></li>
+<li><a href="login.html">LOGIN</a></li>
+</ul>
+</nav>
+<div class="intro">
+<h1 class="slide-left">COUNTDOWN TIMER</h1>
+<p class="slide-left">Best app to perform each task on time in a quick and effective way.<br>Helps to increase your speed.</p>
+</div>
+<div class="footer">
+<h2><U>Contact us</U></h2>
+</div>
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><p>MEHAK<br>7696907875<br>mehakgarg598@gmail.com</p></div>
+      <div class="swiper-slide"><p>MEHAK GUPTA<br>7696907875<br>mehakgarg598@gmail.com</p></div>
+      <div class="swiper-slide"><p>MAYANK SEKHRI<br>7696907875<br>mehakgarg598@gmail.com</p></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
