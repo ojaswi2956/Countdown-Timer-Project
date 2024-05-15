@@ -1,0 +1,100 @@
+body
+{background-color:#0d1106;}
+.header{ width:100%;
+      height:110vh;
+      background-image:url("https://media.istockphoto.com/id/171272852/photo/test-deadline.jpg?s=612x612&w=0&k=20&c=WTHhxsW4R4WGs3__cleGV9ka16eX-VEOFt9ElLlmKs8=");
+      background-color:#cccccc;
+      
+      background-position:center;
+      background-size:cover;
+      
+      overflow-x:hidden;
+}
+nav{  width:100%;
+      display:flex;
+      justify-content:space-between;
+      transition:background 1s;
+      
+}
+nav .logo img{
+       margin-left:120%;
+}
+
+nav ul li{
+       display:inline-block;
+       list-style:none;
+      margin: 10px 20px;
+}
+nav ul li a{
+       text-decoration:none;
+       color:#fff;
+}
+nav:hover{ width:100%;
+       background:#fff;
+}
+nav:hover ul li a{
+       color:black;
+}
+.intro{
+       margin-top:9%;
+       margin-left:9%;
+       color:white;
+}
+.intro h1{
+        font-size:80px;
+}
+.intro p{
+        max-width:500px;
+        line-height:28px;
+}
+.slide-left{
+        animation:slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+      0%{
+         transform: translate(100px);
+         opacity:0;
+      }
+      100%{
+         transform:translate(0px);
+         opacity:1;
+      }
+}
+.footer h2{text-align:center;
+       padding-top:180px;
+       color:#fff;
+       
+      }
+
+.carousel-item
+{
+height:32rem;
+color:#fff;
+position:relative;
+}
+.slidebox{
+position:absolute;
+left:0;
+bottom:0;
+right:0;
+padding-bottom:50px;
+
+}
+
+
+
+
+
+
+ 
+ 
+
+
+
+      
+
+
+
+
+
+
